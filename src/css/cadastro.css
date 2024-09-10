@@ -1,0 +1,279 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(4, 82, 91);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabeçalho{
+    background-color: rgb(7, 105, 127);   
+    height: 70px;
+    width: 100%;
+}
+
+#titulo-do-cabeçalho{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;  
+    text-align: enter; 
+}
+
+/* main > Descrição*/
+
+.titulo-da-descrição{
+    font-size: 27px;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(233, 227, 227);
+}
+
+.sub-titulo-da-descrição{
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(233, 227, 227);
+}
+
+.paragrafo-do-titul-inicial{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(231, 231, 226);
+}
+
+.pastores{
+    display: flex;
+    margin-left: 250px;
+}
+
+.area-do-pastor-presidente{
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: #07697F;
+    padding: 5px;
+    border-radius: 15px;
+    width: 260px;
+    height: 450px;
+}
+
+.pastor-presidente-img{
+    width: 260px;
+    height: 190px;
+    border-radius: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.nome-pastor-presidente{
+    font-size: 16px;
+    margin-top: 8px;
+    color: rgb(231, 231, 226);
+    padding: 5px;
+}
+
+.paragrafo-do-pastor-presidente{
+    font-size: 13px;
+    padding: 5px;
+    text-align: justify;
+}
+
+
+.logo-semana-envagelistica{
+    width: 400px ;
+    height: 350px ;
+    margin-left: 450px;
+}
+
+
+/* main > formulário*/
+
+.formulario{
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 108, 117);
+    min-width: 300px;
+    max-width: 520px;
+    margin: auto;
+    margin-top: 60px;
+    height: 630px;
+    border-radius: 15px;
+    border: 2px solid #D4A227;
+}
+
+.titulo-do-formulario{
+    text-align: center;
+    background-color:#D4A227;
+    border-radius: 10px 10px 0px 0px;
+    height: 40px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.inputs-do-formulario{
+    margin-left: 45px;
+    margin-top: 40px;
+}
+
+.inputs-de-entradas{
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: 5px;
+}
+
+.caixa-de-inputs{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 17px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(12, 88, 147);
+}
+
+.caixa-de-marcação{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#caixa-checkbox{
+    width: 30px;
+}
+
+#bttn-enviar{
+    width: 230px;
+    height: 45px;
+    border-radius: 20px;
+    margin-left: 145px;
+    margin-top: 35px;
+    background-color:#D4A227;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 1px solid rgba(3, 3, 3, 0.514);
+}
+
+#bttn-enviar:hover {
+   background-color: #ffb700;
+}
+
+/* Footer > Rodapé Final */
+
+.rodapé-final{
+    text-align: justify;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #023c42;
+    color: white;
+    font-size: 11px;
+    width: 100%;
+    height: 300px;
+}
+
+/* Telas de celulares */
+
+@media screen and (max-width: 500px) {
+
+.pastores{
+    display: block;
+    margin-left: 18%;
+}
+
+.area-do-pastor-presidente{
+    margin-left: 0px;
+}
+
+.logo-semana-envagelistica{
+    width: 300px ;
+    height: 300px ;
+    margin-left: 11%;
+}
+
+
+
+/* main > formulário*/
+
+.formulario{
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 108, 117);
+    min-width: 300px;
+    max-width: 520px;
+    margin: auto;
+    margin-top: 60px;
+    height: 630px;
+    border-radius: 15px;
+    border: 2px solid #D4A227;
+    
+}
+
+.titulo-do-formulario{
+    text-align: center;
+    background-color:#D4A227;
+    border-radius: 10px 10px 0px 0px;
+    height: 40px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.inputs-do-formulario{
+    margin-left: 45px;
+    margin-top: 40px;
+}
+
+.inputs-de-entradas{
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: 5px;
+}
+
+.caixa-de-inputs{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 17px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(12, 88, 147);
+}
+
+.caixa-de-marcação{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#caixa-checkbox{
+    width: 30px;
+}
+
+#bttn-enviar{
+    width: 230px;
+    height: 45px;
+    border-radius: 20px;
+    margin-left: 85px;
+    margin-top: 35px;
+    background-color:#D4A227;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 1px solid rgba(3, 3, 3, 0.514);
+}
+
+
+
+
+.rodapé-final{
+    height: 200px;
+}
+
+}
