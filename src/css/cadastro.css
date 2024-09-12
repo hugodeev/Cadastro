@@ -13,7 +13,7 @@ body{
 }
 
 .cabeçalho{
-    background-color: rgb(7, 105, 127);   
+    background-color: #B98E18;   
     height: 70px;
     width: 100%;
 }
@@ -58,7 +58,7 @@ body{
     font-size: 14px;
     text-align: justify;
     font-family: "Pt Sans", sans-serif;   
-    font-weight: 600;
+    font-weight: 550;
     font-style: normal;;
     color: rgb(231, 231, 226);
 }
@@ -144,7 +144,7 @@ body{
     width: 400px;
     height: 40px;
     border-radius: 10px;
-    margin-top: 5px;
+    margin-top: 50px;
     font-size: 17px;
     padding-left: 10px;
     color: rgb(0, 0, 0);
@@ -198,6 +198,10 @@ body{
     text-align: center;
 }
 
+.paragrafo-do-titul-inicial{
+    font-size: 17px;
+}
+
 .pastores{
     display: block;
     margin: 14%;
@@ -240,7 +244,7 @@ body{
 
 .inputs-do-formulario{
     margin-left: 20px;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .inputs-de-entradas{
