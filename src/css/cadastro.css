@@ -198,8 +198,13 @@ body{
     text-align: center;
 }
 
+.sub-titulo-da-descrição{
+    font-size: 24px;
+    margin-top:60px;
+}
+
 .paragrafo-do-titul-inicial{
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .pastores{
