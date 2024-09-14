@@ -42,7 +42,7 @@ body{
     padding: 5px;
     border-radius: 15px;
     margin-top: 25px;
-    margin-left: 40px;
+    margin-left: 35%;
 }
 
 .frente-da-igreja{
@@ -120,10 +120,10 @@ body{
     color: rgb(255, 255, 255);
     background-color: rgb(2, 108, 117);
     min-width: 100px;
-    max-width: 520px;
+    max-width: 500px;
     margin: auto;
     margin-top: 60px;
-    height: 630px;
+    height: 710px;
     border-radius: 15px;
     border: 2px solid #D4A227;
 }
@@ -139,11 +139,11 @@ body{
 
 .inputs-do-formulario{
     margin-left: 45px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .inputs-de-entradas{
-    font-size: 20px;
+    font-size: 23px;
     padding-top: 20px;
     margin-left: 5px;
 }
@@ -152,7 +152,7 @@ body{
     width: 400px;
     height: 40px;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 17px;
     padding-left: 10px;
     color: rgb(0, 0, 0);
@@ -170,10 +170,10 @@ body{
 }
 
 #bttn-enviar{
-    width: 230px;
+    width: 260px;
     height: 45px;
     border-radius: 20px;
-    margin-left: 145px;
+    margin-left: 70px;
     margin-top: 35px;
     background-color:#D4A227;
     color: rgb(255, 255, 255);
@@ -204,6 +204,10 @@ body{
 
 #titulo-do-cabeçalho{
     text-align: center;
+}
+
+.main-frente-da-igreja{
+    margin-left: 15%;
 }
 
 .sub-titulo-da-descrição{
