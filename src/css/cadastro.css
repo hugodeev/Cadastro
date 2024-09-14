@@ -206,8 +206,12 @@ body{
     text-align: center;
 }
 
+.titulo-da-descrição{
+    font-size: 27px;
+}
+
 .main-frente-da-igreja{
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .sub-titulo-da-descrição{
@@ -244,7 +248,7 @@ body{
     width: 340px;
     margin: auto;
     margin-top: 60px;
-    height: 540px;
+    height: 600px;
     border-radius: 15px;
     border: 2px solid #D4A227;
     
@@ -296,7 +300,7 @@ body{
     width: 200px;
     height: 45px;
     border-radius: 20px;
-    margin-left: 60px;
+    margin-left: 48px;
     margin-top: 35px;
     background-color:#D4A227;
     color: rgb(255, 255, 255);
@@ -304,11 +308,5 @@ body{
     border: 1px solid rgba(3, 3, 3, 0.514);
 }
 
-
-
-
-.rodapé-final{
-    height: 200px;
-}
 
 }
