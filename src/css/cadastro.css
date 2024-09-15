@@ -207,7 +207,7 @@ body{
 }
 
 .titulo-da-descrição{
-    font-size: 27px;
+    font-size: 26px;
 }
 
 .main-frente-da-igreja{
@@ -221,7 +221,7 @@ body{
 
 .paragrafo-do-titul-inicial{
     font-size: 16px;
-    margin: 30px;
+    margin: 15px;
 }
 
 .pastores{
@@ -307,6 +307,22 @@ body{
     color: rgb(255, 255, 255);
     font-size: 18px;
     border: 1px solid rgba(3, 3, 3, 0.514);
+}
+
+.main-frente-da-igreja{
+    background-color: #b98e18;
+    width: 330px ;
+    height: 280px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 6%;
+}
+
+.frente-da-igreja{
+    width: 330px;
+    height: 280px;
+    border-radius: 15px;
 }
 
 
