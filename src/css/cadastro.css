@@ -27,7 +27,7 @@ body{
 /* main > Descrição*/
 
 .titulo-da-descrição{
-    font-size: 24px;
+    font-size: 26px;
     margin-left: 15px;
     margin-top: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -37,43 +37,43 @@ body{
 
 .main-frente-da-igreja{
     background-color: #b98e18;
-    width: 300px ;
-    height: 280px;
+    width: 800px ;
+    height: 440px;
     padding: 5px;
     border-radius: 15px;
-    margin-top: 25px;
-    margin-left: 35%;
+    margin-top: 60px;
+    margin-left: 20%;
 }
 
 .frente-da-igreja{
-    width: 300px;
-    height: 280px;
+    width: 800px;
+    height: 440px;
     border-radius: 15px;
 }
 
 .sub-titulo-da-descrição{
-    font-size: 22px;
+    font-size: 26px;
     margin-left: 15px;
-    margin-top:60px;
+    margin-top: 70px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
-    color: rgb(233, 227, 227);
+    color: rgb(210, 201, 201);
 }
 
 .paragrafo-do-titul-inicial{
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 30px;
-    font-size: 14px;
+    font-size: 22px;
     text-align: justify;
     font-family: "Pt Sans", sans-serif;   
-    font-weight: 550;
+    font-weight: 250;
     font-style: normal;;
-    color: rgb(231, 231, 226);
+    color: rgb(202, 202, 197);
 }
 
 .pastores{
     display: flex;
-    margin-left: 250px;
+    margin-left: 20%;
 }
 
 .area-do-pastor-presidente{
@@ -221,6 +221,7 @@ body{
 
 .paragrafo-do-titul-inicial{
     font-size: 16px;
+    margin: 30px;
 }
 
 .pastores{
