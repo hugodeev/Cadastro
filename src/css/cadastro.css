@@ -9,6 +9,11 @@ body {
     margin: 0%;
     padding: 0%;
 }
+.responsivelmain{
+    background-color: rgb(4, 82, 91);
+    width: 1300px;
+    margin: auto;
+}
 
 body{
     background-color: rgb(4, 82, 91);
@@ -58,7 +63,7 @@ body{
 .sub-titulo-da-descrição{
     font-size: 26px;
     margin-left: 15px;
-    margin-top: 70px;
+    margin-top: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     color: rgb(210, 201, 201);
 }
@@ -202,9 +207,49 @@ body{
     height: 300px;
 }
 
+/* Telas de tablets*/
+
+@media screen and (max-width: 900px) {
+
+.responsivelmain{   
+    width: 900px;
+    margin: auto;
+}
+
+.main-frente-da-igreja{
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.frente-da-igreja{
+    width: 100%;
+}
+
+.pastores{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.logo-semana-envagelistica{
+    width: 400px ;
+    height: 350px ;
+    margin: 50px;
+    margin-left: 28%;
+
+}
+
+}
+
 /* Telas de celulares */
 
 @media screen and (max-width: 500px) {
+
+.responsivelmain{   
+    width: 100%;
+}
 
 #titulo-do-cabeçalho{
     padding: 0%;
@@ -217,7 +262,7 @@ body{
 }
 
 .main-frente-da-igreja{
-    margin-left: 10%;
+    margin-left:10%;
 }
 
 .sub-titulo-da-descrição{
